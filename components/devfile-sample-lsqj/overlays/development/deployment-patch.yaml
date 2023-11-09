@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-lsqj
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/cin4s-839-0008-tenant/cin4s-839-0008-app/devfile-sample-lsqj@sha256:dc32427f2fb8106adde5ce52d8708bd8c6c2099c490e90ce60229bdbd3b90000
+        name: my-nodejs
+        resources: {}
+status: {}
